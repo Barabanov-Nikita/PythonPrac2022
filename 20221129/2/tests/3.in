@@ -1,0 +1,17 @@
+class C(metaclass=check):
+    A: list[int]
+    B: str = "QQ"
+    def qq(self, q: str) -> str:
+        return q
+
+
+c = C()
+print(c.check_annotations())
+c.A = "QQ"
+print(c.check_annotations())
+c.A = [1, 2, 3]
+print(c.check_annotations())
+c.C = None
+print(c.check_annotations())
+c.qq = "QQ"
+print(c.check_annotations())

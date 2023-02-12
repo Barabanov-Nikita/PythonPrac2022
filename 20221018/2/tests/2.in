@@ -1,0 +1,5 @@
+:sin x sin(x)
+sin 0
+:sin x cos(x)
+sin 0
+quit "{}:{}"

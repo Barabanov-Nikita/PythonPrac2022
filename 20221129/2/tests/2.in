@@ -1,0 +1,13 @@
+from types import NoneType
+
+
+class C(metaclass=check):
+    A: NoneType
+    B: str = "QQ"
+
+c = C()
+print(c.check_annotations())
+c.A = "QQ"
+print(c.check_annotations())
+c.A = None
+print(c.check_annotations())

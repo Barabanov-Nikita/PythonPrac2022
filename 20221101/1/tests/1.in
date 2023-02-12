@@ -1,0 +1,8 @@
+o = Omnibus()
+o.blabla = 1
+o.bla = 5
+bo = Omnibus()
+bo.blabla = 3
+bo.la = 4
+del bo.la
+print(o.blabla, bo.blabla, o.bla, bo.la)

@@ -1,0 +1,3 @@
+:try_to_break func_dict func_dict
+try_to_break "Hello"
+quit "{}   {}"

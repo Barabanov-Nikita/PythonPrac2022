@@ -1,0 +1,10 @@
+from decimal import Decimal
+class D:
+  num = Num()
+print(D().num)
+d = D()
+print(d.num)
+d.num = Decimal("10.99999999999999999999999999")
+print(d.num)
+d.num = 7.123
+print(d.num)

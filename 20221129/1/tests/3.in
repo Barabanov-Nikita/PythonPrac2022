@@ -1,0 +1,11 @@
+class C(metaclass=dump):
+    def __init__(self, val):
+        self.val = self.seven(val)
+
+    def seven(self, val, **kwargs):
+        return val + 7
+
+
+c = C(10)
+print(c.seven(7))
+print(c.seven(0, another=42))

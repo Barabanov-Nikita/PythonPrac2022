@@ -1,0 +1,8 @@
+a = DivStr("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+print(* a // 4)
+print(a % 3)
+print(* a % 10 // 2)
+print(a.lower() % 5)
+print(* a[1:6] // 4)
+print(DivStr())
+print(a % 6 + DivStr() + a % 5)

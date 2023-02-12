@@ -1,0 +1,9 @@
+class D:
+  num = Num()
+print(D().num)
+d = D()
+print(d.num)
+d.num = [1, 2, 3, 4, 5, 6]
+print(d.num)
+d.num = 5 + 3j
+print(d.num)
